@@ -1,5 +1,5 @@
-scene.setBackgroundColor(6)
-let mySprite = sprites.create(img`
+scene.set_background_color(6)
+mySprite = sprites.create(img("""
         . . f f f . . . . . . . . f f f 
             . f f c c . . . . . . f c b b c 
             f f c c . . . . . . f c b b c . 
@@ -16,5 +16,6 @@ let mySprite = sprites.create(img`
             . f b b b b b b b b c f . . . . 
             . . f b b b b b b c f . . . . . 
             . . . f f f f f f f . . . . . .
-    `, SpriteKind.Player)
-controller.moveSprite(mySprite, 100, 100)
+    """),
+    SpriteKind.player)
+controller.move_sprite(mySprite, 100, 100)
