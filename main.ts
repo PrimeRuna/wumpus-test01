@@ -18,3 +18,11 @@ let mySprite = sprites.create(img`
             . . . f f f f f f f . . . . . .
     `, SpriteKind.Player)
 controller.moveSprite(mySprite, 100, 100)
+
+// show splash screen
+
+// show start screen
+
+// show game screen
+
+// show end screen

@@ -6,8 +6,11 @@
         "device": "*"
     },
     "files": [
+        "images.g.jres",
+        "images.g.ts",
         "main.blocks",
         "main.ts",
+        "player.ts",
         "README.md",
         "assets.json",
         "tutorial-info-cache.json",
