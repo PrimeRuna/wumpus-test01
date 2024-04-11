@@ -22,6 +22,25 @@ namespace myImages {
 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
 `;
+            case "image2":
+            case "goldCoin":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . b b b b b b b . . . . 
+. . . b b b b b b b b b b b . . 
+. . b b b 6 6 6 6 6 6 6 b b b . 
+. . b b 6 6 5 5 5 5 5 6 6 b b . 
+. b b 6 6 5 5 5 3 1 1 5 6 6 b b 
+. b b 6 5 5 5 5 3 1 1 5 5 6 b b 
+. b b 6 5 5 5 5 3 3 3 5 5 6 b b 
+. b b 6 5 5 5 5 5 5 5 5 5 6 b b 
+. b b 6 5 5 5 5 5 5 5 5 5 6 b b 
+. c c 6 5 5 5 5 5 5 5 5 5 6 c c 
+. c c 6 5 5 5 5 5 5 5 5 5 6 c c 
+. . c 6 6 5 5 5 5 5 5 5 6 6 c . 
+. . f f 6 6 5 5 5 5 5 6 6 f f . 
+. . . f f 6 6 6 6 6 6 6 f f . . 
+. . . . . f f f f f f f . . . . 
+`;
         }
         return null;
     })
